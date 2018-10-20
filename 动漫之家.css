@@ -1,0 +1,101 @@
+a{
+	color: black;
+	text-decoration: none;
+}
+a.a1{
+	color:#0719EA;
+	text-decoration: none;
+}
+a.a1:hover{
+	color:#D81C0C;
+	text-decoration: none;
+}
+a.a2{
+	color: #FB081C;
+	text-decoration: none;
+}
+a.a2:hover{
+	color: #B703FB;
+}
+a.a3{
+	color: #08CCFB;
+	text-decoration: none;
+}
+a.a3:hover{
+	color: #B703FB;
+}
+.标题{
+	background:url(https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1442102537,104548195&fm=27&gp=0.jpg);
+	background-size: 100% 300px;       
+}
+.h1{
+	color: #EE0715;
+	text-align: center;
+	font-family: 宋体;
+}
+.ul1{
+	text-align: left;
+	list-style-type: none;
+}
+.li1{
+	z-index: 1;
+	width: 160px;
+	height: 40px;
+	font-size: 30px;
+	color:000;
+	font-family: 宋体;
+	font-style: center;
+	font-weight: bolder;
+	padding: 10px;
+	border:2px;
+}
+.li2{
+	z-index: 1;
+	width: 160px;
+	height: 40px;
+	font-size: 28px;
+	color:#00FBF8;
+	font-family: 宋体;
+	font-style: center;
+	font-weight: bolder;
+	margin-top: 30px;
+	padding: 10px;
+	border:2px;	
+}
+.目录{
+	background: url(https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2250212516,628850740&fm=200&gp=0.jpg);
+	background-size: 800px;
+}
+.主体{
+	width: 1200px;
+	height: 1000px;
+	background-image: url(images/动漫/proxy.jpg);
+	background-repeat: no-repeat;
+}
+.海贼王{
+	z-index: 0;
+	background: url(http://www.srx.gov.cn/Content/Main/Base/img/bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.火影忍者{
+	z-index: 0;
+	background: url(https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=166920226,729751379&fm=27&gp=0.jpg);
+	background-size: 1200px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.名侦探柯南{
+	z-index: 0;
+	background: url(https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3248316830,3255192645&fm=27&gp=0.jpg);
+	background-size: 1200px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.border1{
+	float: right;
+	border: thick double #7AE3F6;<!--淡蓝色-->
+}
+.border2{
+	float: left;
+}

@@ -1,0 +1,166 @@
+a{
+	color: black;
+	text-decoration: none;
+}
+a.a1{
+	color: #1D46FF;
+	text-decoration: none;
+}
+a.a1:hover{
+	color:#05FCEB;
+	text-decoration: none;
+}
+a.a2{
+	color: #1D46FF;
+	text-decoration: none;
+}
+a.a2:hover{
+	color: red;
+	text-decoration:none;
+}
+a.a3{
+	color: #0550FC;
+	text-decoration: none;
+}
+a.a3:hover{
+	color:#FC0606;
+	text-decoration:none;
+}
+a.a4{
+	color: #2D05FB;
+	text-decoration: none;
+}
+a.a4:hover{
+	color:#FC06E1;
+	text-decoration:none;
+}
+#body{
+	z-index: 0;
+	background:url(images/background/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 1400px;
+	background-attachment: fixed;
+}
+.h1{
+	font-style: normal;
+	font-family: 楷书,隶书,宋体;
+	font-size: 50px;
+	letter-spacing: 5px;
+	text-align: center;
+}
+.h2{
+	font-family: 隶书;
+	font-size: 40px;
+	text-align: center;
+}
+.h3{
+	font-family: 宋体;
+	font-size: 30px;
+	color: #5221FF;
+	text-align: center;
+}
+.p1{
+	font-size: 20px;
+	text-align: center;
+	color: #FB0220;
+}
+.p2{
+	color:#E605FC;
+	font-family: 宋体;
+	font-size: 20px;
+	text-align: center;
+}
+.p3{
+    color:#E605FC;
+	font-family: 宋体;
+	font-size: 30px;
+	text-align: center;
+}
+.u1{
+	/*text-align: center;*/
+	list-style-type: none;
+}
+.u2{
+	margin-left: 200px;
+	list-style-type: none;
+}
+.li1{
+	z-index: 1;
+	width: 115px;
+	height: 34px;
+	font-size: 28px;
+	color:white;
+	font-family: 宋体;
+	font-weight: bold;
+	padding: 10px;
+	background-color: #3F89F6;
+	float: left;
+}
+li.li1:hover{
+	background-color: #065DF4;
+}
+.li2{
+	z-index: 1;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+}.li3{
+	z-index: 1;
+	width: 115px;
+	height: 34px;
+	font-size: 28px;
+	color:white;
+	font-family: 宋体;
+	font-weight: bold;
+	margin-left: 50px;
+	padding: 10px;
+	background-color: #04FC54;
+	float: left;
+}
+li.li3:hover{
+	background-color: #0CC300;
+}
+.菜单{
+	z-index: 1;
+	width: 1300px;
+	height: 34px;
+	margin-top: 90px;
+	margin-left: 30px;
+}
+.主体{
+	z-index: 1;
+	width: 1213px;
+	height: 1550px;
+	border: #EEFBFA 1px solid;
+	margin-left: 70px;
+	margin-top: 20px;
+	background-color: #FFFFFF;
+}
+.前言{
+	z-index: 2;
+	width: 1100px;
+	height: 180px;
+	margin-top: 50px;
+	margin-left: 45px;
+	padding-top: 10px;
+	padding-left: 20px;
+	background: #DDDCD8;
+}
+.学校{
+	z-index: 2;
+	width: 1120px;
+	height: 1100px;
+	margin-top: 30px;
+	margin-left: 45px;
+	background:#D7E2E0;
+	/*border: 1px red solid;*/
+}
+.游戏{
+	z-index: 2;
+	width: 1120px;
+	height: 100px;
+	margin-top: 30px;
+	margin-left: 45px;
+	padding-top: 20px;
+	background:#BFE7E8;
+}

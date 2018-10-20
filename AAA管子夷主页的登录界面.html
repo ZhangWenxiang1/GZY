@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<link rel="shortcut icon" href="images/logo/timg.jpg">
+	<title>管子夷主页登录界面</title>
+	<script type="text/javascript">
+	function rec(){
+    var username = document.form.username.value ;  
+    var password = document.form.password.value ;    
+
+       if (username ==""){  
+        alert("请输入用户名!");  
+        return false ;  
+       }  
+
+       if (password ==""){  
+        alert("请输入密码!");  
+        return false ;  
+       }  
+	   
+	   if(username!="gzy"||password!="1998827"){
+	   	alert("账号或密码输入错误!");
+	   }
+	   else
+	   	window.location.href="管子夷主页.html";
+    }
+	</script>
+	<style type="text/css">
+	<!--
+	#body{
+	z-index: 0;
+	background:url(images/olgin/1.jpg);
+	background-repeat: no-repeat;
+	background-size: 1400px;
+	background-attachment: fixed;
+    }
+    .login{
+    	width: 420px;
+    	height: 200px;
+    	margin-left: 850px;
+    	margin-top: 150px;
+    	background:#02FBAD;
+    	/*border: red 1px solid;*/
+    }
+    .h1{
+    	display: block;
+    	font-size:28px;
+    	text-align: center;
+    	font-weight: 900;
+    }
+    .Account{
+    	width:420px;
+    	height: 50px;
+    	margin-top: 20px;
+    	font-size: 20px;
+    	text-align: center;
+    	/*border:green 1px solid;*/
+    }
+    .password{
+    	width:420px;
+    	height: 50px;
+    	margin-top: 10px;
+    	font-size: 20px;
+    	text-align: center;
+    	/*border:green 1px solid;*/
+    }
+    .submit1{
+      	width:80px;
+    	height: 40px;
+    	margin-top: 10px;
+    	margin-left:180px;
+    	color: #FC5761;
+    	font-size: 20px;
+    	text-align: center;
+        float: left;
+    	/*border:green 1px solid;   	*/
+    }
+
+	-->
+    </style>
+</head>
+<body id="body">
+<div class="login">
+	<br>
+	<form name="form" method="post" action="">
+		<div class="Account">
+			账号 <input type="text" name="username" value="" 
+			style="width:250px;height: 30px">
+		</div>
+		<div class="password">
+			密码 <input type="password" name="password" value=""
+			style="width:250px;height: 30px">
+	    </div>
+	    <div class="submit1">
+	    	<input type="button" name="" value="登录" 
+            onclick="rec()" 
+	    	style="background:#9AFCCD color:#2CF51A width:120px;height: 30px " >
+	    </div>   
+    </form>
+</div>
+</body>
+</html>

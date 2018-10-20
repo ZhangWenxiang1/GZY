@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="images/logo/timg3.jpg">
+	<title>游戏王</title>
+	<style type="text/css" media="screen">
+	a{
+	    color: black;
+	    text-decoration: none;
+    }
+    a.a1{
+	    color: #1D46FF;
+	    text-decoration: none;
+    }
+    a.a1:hover{
+	    color:#05FCEB;
+	    text-decoration: none;
+    }
+    a.a2{
+      color: #FD045A;
+      text-decoration: none;
+    }    
+    a.a2:hover{
+     color:#FFFC00;
+     text-decoration: none;
+    }
+    .h1{
+	   font-style: normal;
+	   font-family: 楷书,隶书,宋体;
+	   font-size: 60px;
+	   letter-spacing: 5px;
+	   text-align: center;
+    }
+	#body{
+	    z-index: 0;
+	    background:url(images/游戏王/timg.jpg);
+	    background-repeat: no-repeat;
+	    background-size: 1380px;
+	    background-attachment: fixed;		
+	}
+	.标题{
+		z-index: 1;
+		width: 
+	}
+  .返回{
+     z-index: 1;
+     width: 150px;
+     height: 34px;
+     font-size: 32px;
+     font-family: 宋体;
+     font-weight: bold;
+     padding: 10px;
+     margin-left: 1165px;
+     margin-top: 450px;
+     float: left;
+    }
+	</style>
+		<div id=demo  style="overflow: hidden; width: 650px; height: 400px; top:180px; left:380px;position: absolute;" 	background-attachment: fixed;>
+    <table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+         <td valign="top"  id=demo1>
+            <!-- 要循环滚动的图片 -->
+            <table width="600" border="0" align="center" cellpadding="0" cellspacing="0" >
+               <tr>
+                  <td width="200" align="center" style="height: 400px">
+                      <a href="">
+                     <img src="images/游戏王/1.jpg" width="550px" height="380px" border="0" /></a>
+                  </td>
+                  <td width="200" align="center" style="height: 350px">
+                      <a href="">
+                     <img src="images/游戏王/4.jpg" width="600px" height="380px" border="0" /></a>
+                  </td>
+                  <td align="center" style="height: 350px; width: 450px;">
+                      <a href="">
+                     <img src="images/游戏王/3.jpg" width="360px" height="380px" border="0" /></a>
+                  </td>
+                  <td align="center" style="height: 350px; width: 450px;">
+                      <a href="">
+                     <img src="images/游戏王/2.jpg" width="700px" height="380px" border="0" /></a>
+                  </td>
+                  <td align="center" style="height: 350px; width: 450px;">
+                      <a href="">
+                     <img src="images/游戏王/5.jpg" width="600px" height="380px" border="0" /></a>
+                  </td>                                    
+               </tr>
+            </table>
+         </td>
+         <td id=demo2 width=1></td>
+      </tr>
+    </table>
+    </div> 
+    <script type="text/javascript">  	
+      var speed=20//速度数值越大速度越慢
+      var demo2 = document.getElementById("demo2");
+      var demo = document.getElementById("demo");
+      var demo1 = document.getElementById("demo1");
+      demo2.innerHTML=demo1.innerHTML
+      function Marquee(){
+         if(demo2.offsetWidth-demo.scrollLeft<=0)
+            demo.scrollLeft-=demo1.offsetWidth
+         else{
+            demo.scrollLeft++
+         }
+      }
+   var MyMar=setInterval(Marquee,speed)
+   demo.onmouseover=function() {clearInterval(MyMar)}
+   demo.onmouseout=function() {MyMar=setInterval(Marquee,speed)}
+   </script>
+</head>
+<body id="body">
+	<audio src="music/UN1、谭联耀 - 行星.mp3" loop="loop" autoplay="autoplay"></audio>
+	<h1 class="h1"><a class="a1" href="">游戏王</a></h2>
+    <div class="返回">
+        <a href="管子夷主页.html" class="a2" title="">返回主页</a>
+   </div>   
+</body>
+</html>
